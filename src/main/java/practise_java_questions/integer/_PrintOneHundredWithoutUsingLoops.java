@@ -4,7 +4,7 @@ public class _PrintOneHundredWithoutUsingLoops {
     public static void main(String[] args) {
         printNum(1);
         System.out.println("--------");
-        printNumber(1,100);
+        printNumber(1, 100);
     }
 
     public static void printNum(int num) {
@@ -18,13 +18,18 @@ public class _PrintOneHundredWithoutUsingLoops {
     }
 
     public static void printNumber(int stNumb, int endNum) {
-        if (stNumb <= endNum){
+        if (stNumb <= endNum) {
             System.out.println(stNumb);
             stNumb++;
             printNumber(stNumb, endNum);
-
-
+        }
     }
-}
+
+    public static void printP(int stN, int end){
+        if (stN <= end){
+
+        }
+    }
+
 
 }

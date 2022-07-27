@@ -3,7 +3,7 @@ package practise_java_questions.integer;
 public class CountOfCapitalizedLetters {
     public static void main(String[] args) {
 
-        String str = "NaveenMaryShitBettyYo";
+        String str = "NaveenMaryShitBettyo";
 
 //        1.
         int count = 0;

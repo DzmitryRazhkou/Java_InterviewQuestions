@@ -1,26 +1,28 @@
 package temp;
 
-import java.util.ArrayList;
-import java.util.Collections;
+
+import java.util.*;
 
 public class S {
     public static void main(String[] args) {
-        ArrayList ar = new ArrayList<>(5);
-        ar.ensureCapacity(5);
-        ar.add("Edward");
-        ar.add("Den");
-        ar.add("Jane");
+        String f = "NfkPLo";
 
-        Collections.sort(ar, Collections.reverseOrder());
-        System.out.println(ar);
+        int count = 0;
+        for (int i = 0; i < f.length(); i++) {
+            if (f.charAt(i) >= 'A' && f.charAt(i) <= 'Z'){
+                count++;
+            }
+        }
+        System.out.println(count);
 
+        int count2 = 0;
+        for (int i = 0; i < f.length(); i++) {
+            if (Character.isUpperCase(f.charAt(i))){
+                count2++;
+            }
+        }
+        System.out.println(count2);
 
-        System.out.println(ar.hashCode());
-
-
-
-
-        System.out.println(ar.size());
     }
-    }
+}
 

@@ -1,4 +1,4 @@
-package practise_java_questions;
+package practise_java_questions.character;
 
 import java.util.HashMap;
 import java.util.Map;

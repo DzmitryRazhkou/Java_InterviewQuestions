@@ -1,4 +1,4 @@
-package practise_java_questions;
+package practise_java_questions.integer;
 
 public class MaxNumberWhereeThreeDifferent {
     public static void main(String[] args) {

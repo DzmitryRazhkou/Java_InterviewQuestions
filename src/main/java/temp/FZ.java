@@ -4,18 +4,56 @@ import java.util.*;
 
 public class FZ {
     public static void main(String[] args) {
-        Integer[] numbers = {1, 5, 5, 89, 15, 12, 15, 5, 12, 55, 99, 12, 75, 75, 12};
+        String[]d = {"Js", "Js", "Python", "C#", "C++", "Ruby"};
+        Object[]f = {1, "Js", 1, 1, "Js" ,"C+" , "C+", 12.6, 12.6};
+        remove(f);
 
-        duplicate(numbers);
-    }
+        int[]arr = {2, 99, 4, 17};
 
-    public static void duplicate(Object[] object) {
-        Set<Object> set = new HashSet<>();
-        for (Object s : object) {
-            set.add(s);
+        int max = arr[0];
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+                    System.out.println(max);
+                }
+            }
         }
-        set.forEach(x -> System.out.println(x));
 
+
+
+    public static void remove(Object[] object) {
+        Set<Object> set = new HashSet<>();
+        for (Object a: object){
+            set.add(a);
+            }
+        set.forEach(f -> System.out.println(f));
+        }
     }
-}
+
+
+
+
+//        String[]names = {"JS", "Java", "Python", "C+", "Typescript", "JS"};
+//        Set<String> map = new HashSet<>();
+//
+//        for (String f: names){
+//            if (map.add(f) == false){
+//                System.out.println(f);
+//            }
+//        }
+//
+//    }
+//
+//        int[] numbers = {1, 3, 5, 6, 2, 3, 19, 99, 175, 375};
+//
+//        int max = numbers[0];
+//        for (int i = numbers.length -1; i > i; i--) {
+//            if (numbers[i] < max){
+//                max = numbers[i];
+//            }
+//        }
+//        System.out.println(max);
+
+
 

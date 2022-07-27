@@ -16,7 +16,7 @@ public class _RepeatNumberCount {
 
     public static void getDigitCount(int number) {
 
-        if (String.valueOf(number).length()==1) {
+        if (String.valueOf(number).length() == 1) {
             System.out.println(number + " : " +1);
         }
 
